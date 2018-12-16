@@ -1,26 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import Header from "./components/Header/Header.js";
+import Container from "./components/Container/Container.js";
+import Card from "./components/Card/Card.js"
+import lightning from "./lightning.json"
 import './App.css';
 
 class App extends Component {
+  state = {
+    lightning
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      // <Header />
+      <Container>
+        {this.state.lightning.map(bolt => (
+          <Card 
+          id={bolt.id}
+          key={bolt.id}
+          name={bolt.name}
+          image={bolt.image}
+          />
+        ))}
+      </Container>
     );
   }
 }

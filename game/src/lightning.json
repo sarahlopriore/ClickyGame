@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Lightning 1",
+        "image": "/images/lightning1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Lightning 2",
+        "image": "/images/lightning2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Lightning 3",
+        "image": "/images/lightning3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Lightning 4",
+        "image": "/images/lightning4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Lightning 5",
+        "image": "/images/lightning5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Lightning 6",
+        "image": "/images/lightning6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Lightning 7",
+        "image": "/images/lightning7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Lightning 8",
+        "image": "/images/lightning8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Lightning 9",
+        "image": "/images/lightning9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Lightning 10",
+        "image": "/images/lightning10.png"
+    },
+    {
+        "id": 11,
+        "name": "Lightning 11",
+        "image": "/images/lightning11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Lightning 12",
+        "image": "/images/lightning12.jpg"
+    }
+]
