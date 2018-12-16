@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import Header from "./components/Header/Header.js";
+import Header from "./components/Header/Header.js";
 import Container from "./components/Container/Container.js";
 import Card from "./components/Card/Card.js"
 import lightning from "./lightning.json"
@@ -12,8 +12,8 @@ class App extends Component {
 
   render() {
     return (
-      // <Header />
       <Container>
+        <Header />
         {this.state.lightning.map(bolt => (
           <Card 
           id={bolt.id}
