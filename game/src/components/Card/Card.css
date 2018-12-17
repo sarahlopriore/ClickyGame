@@ -5,4 +5,5 @@ img {
 .card {
     width: 25%;
     display: inline-block;
+    margin: 0px;
 }

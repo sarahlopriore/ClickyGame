@@ -1,12 +1,12 @@
 import React from "react";
+import "./Header.css";
 
 const Header = props => (
-    <div className="header">
+    <div className="header bg-secondary">
         <h1 className="title">Clicky Game</h1>
-        <h5>Click on an image to earn points, but don't click on an image more than once.</h5>
-        <h3 className="guessResult"></h3>
-        <h3 className="score"></h3>
-        <h3 className="highScore"></h3>
+        <div className="lead">Click on an image to earn points, but don't click on an image more than once.</div>
+        <h3 className="guessResult">{props.guessResult}</h3>
+        <h3 className="score">Score: {props.score} | High Score: {props.highScore}</h3>
     </div>
 )
 
