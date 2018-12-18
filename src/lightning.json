@@ -2,12 +2,12 @@
     {
         "id": 1,
         "name": "Lightning 1",
-        "image": "static/images/lightning1.jpg"
+        "image": "/images/lightning1.jpg"
     },
     {
         "id": 2,
         "name": "Lightning 2",
-        "image": "static/images/lightning2.jpg"
+        "image": "/images/lightning2.jpg"
     },
     {
         "id": 3,
