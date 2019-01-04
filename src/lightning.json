@@ -7,7 +7,7 @@
     {
         "id": 2,
         "name": "Lightning 2",
-        "image": "/images/lightning2.jpg"
+        "image": "{{site.baseurl}}/images/lightning2.jpg"
     },
     {
         "id": 3,
