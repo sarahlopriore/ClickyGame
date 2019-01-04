@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Lightning 1",
-        "image": "/images/lightning1.jpg"
+        "image": "https://raw.githubusercontent.com/sarahlopriore/ClickyGame/master/public/images/lightning1.jpg"
     },
     {
         "id": 2,
